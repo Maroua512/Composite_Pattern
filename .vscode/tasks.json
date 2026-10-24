@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Maven: compiler le projet",
+            "type": "shell",
+            "command": "mvn",
+            "args": [
+                "compile"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$maven"
+            ]
+        },
+        {
+            "label": "Maven: executer l'application",
+            "type": "shell",
+            "command": "mvn",
+            "args": [
+                "exec:java"
+            ],
+            "problemMatcher": [
+                "$maven"
+            ]
+        }
+    ]
+}

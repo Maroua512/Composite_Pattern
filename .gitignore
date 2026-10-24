@@ -1,0 +1,16 @@
+target/
+
+# Fichiers Java/Maven generes
+*.class
+hs_err_pid*.log
+
+# IDE Eclipse/IntelliJ
+.classpath
+.project
+.settings/
+*.iml
+.idea/
+
+# Fichiers du systeme d'exploitation
+.DS_Store
+Thumbs.db
