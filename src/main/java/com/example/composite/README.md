@@ -54,11 +54,3 @@ classDiagram
     SocieteComposite o-- "0..*" Societe : contient
 ```
 
-### Correspondance avec le patron
-
-| Élément du patron | Classe du projet |
-|---|---|
-| Component | `Societe` |
-| Leaf | `SocieteSansFiliale` |
-| Composite | `SocieteComposite` |
-| Client | `App` |
